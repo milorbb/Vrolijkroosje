@@ -1,5 +1,5 @@
 .logo img {
-    width: 7%;
+    width: 15%;
     border-radius: 30px;
 
     
@@ -151,5 +151,6 @@ footer {
 
 .foto-gallery button:hover {
   background-color: #7BA05B;
+
 
 }
