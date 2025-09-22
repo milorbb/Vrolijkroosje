@@ -1,5 +1,5 @@
 .logo img {
-    width: 30%;
+    width: 7%;
     border-radius: 30px;
 
     
@@ -152,6 +152,39 @@ footer {
 .foto-gallery button:hover {
   background-color: #7BA05B;
 
-
 }
+
+/* De container van het winkelwagen-icoon */
+.cart {
+    position: absolute;      /* bijvoorbeeld rechtsboven in je pagina */
+    top: 20px;
+    right: 20px;
+    cursor: pointer;         /* handje-muis als je erover gaat */
+}
+
+/* Het icoon zelf */
+.cart i {
+    font-size: 40px;         /* grootte van het icoon */
+    color: #2c3e50;          /* kleur (donkergrijs/blauwachtig) */
+    transition: color 0.3s, transform 0.2s;
+}
+
+/* Hover-effect */
+.cart i:hover {
+    color: #e74c3c;          /* rood als je erover gaat */
+    transform: scale(1.2);   /* een beetje groter bij hover */
+}
+
+.cart a {
+    font-size: 28px;
+    color: #2c3e50;
+    text-decoration: none;     /* geen onderlijning */
+    transition: color 0.3s, transform 0.2s;
+}
+
+.cart a:hover {
+    color: #e74c3c;
+    transform: scale(1.2);
+}
+
 
