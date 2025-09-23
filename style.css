@@ -77,6 +77,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    position: fixed;
 }
 
 .h1overons {
@@ -156,29 +157,29 @@ footer {
 
 /* De container van het winkelwagen-icoon */
 .cart {
-    position: absolute;      /* bijvoorbeeld rechtsboven in je pagina */
+    position: absolute;      
     top: 20px;
     right: 20px;
-    cursor: pointer;         /* handje-muis als je erover gaat */
+    cursor: pointer;         
 }
 
-/* Het icoon zelf */
+
 .cart i {
-    font-size: 40px;         /* grootte van het icoon */
-    color: #2c3e50;          /* kleur (donkergrijs/blauwachtig) */
+    font-size: 40px;         
+    color: #2c3e50;          
     transition: color 0.3s, transform 0.2s;
 }
 
 /* Hover-effect */
 .cart i:hover {
-    color: #e74c3c;          /* rood als je erover gaat */
-    transform: scale(1.2);   /* een beetje groter bij hover */
+    color: #e74c3c;          
+    transform: scale(1.2);   
 }
 
 .cart a {
     font-size: 28px;
     color: #2c3e50;
-    text-decoration: none;     /* geen onderlijning */
+    text-decoration: none;     
     transition: color 0.3s, transform 0.2s;
 }
 
@@ -186,5 +187,6 @@ footer {
     color: #e74c3c;
     transform: scale(1.2);
 }
+
 
 
